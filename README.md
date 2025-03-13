@@ -44,42 +44,7 @@ Esta extensión proporciona las siguientes configuraciones:
 - `frameworkIcons.detectFramework`: Activa o desactiva la detección automática de framework.
 - `frameworkIcons.manualFramework`: Establece manualmente el framework a usar (solo si la detección automática está desactivada).
 
-## Estructura del proyecto
-
-La extensión utiliza la API oficial de File Icon Theme de VS Code:
-
-```
-extension-example/
-├── fileicons/
-│   ├── react/
-│   │   ├── default_folder.svg
-│   │   ├── folder_components.svg
-│   │   └── ... (más iconos SVG)
-│   ├── angular/
-│   │   ├── default_folder.svg
-│   │   ├── folder_src.svg
-│   │   └── ... (más iconos SVG)
-│   ├── vue/
-│   │   ├── default_folder.svg
-│   │   ├── folder_components.svg
-│   │   └── ... (más iconos SVG)
-│   ├── react-icon-theme.json
-│   ├── angular-icon-theme.json
-│   └── vue-icon-theme.json
-└── src/
-    ├── extension.ts
-    ├── frameworkDetector.ts
-    ├── iconThemeProvider.ts
-    └── utils.ts
-```
-
 ## Instalación
-
-### Desde VS Code Marketplace
-1. Abre VS Code
-2. Presiona `Ctrl+P` / `Cmd+P`
-3. Escribe `ext install framework-icons`
-4. Presiona Enter
 
 ### Manual
 1. Descarga el archivo `.vsix` desde la sección de releases

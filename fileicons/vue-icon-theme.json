@@ -1,0 +1,80 @@
+{
+  "iconDefinitions": {
+    "default_folder": {
+      "iconPath": "./vue/default_folder.svg"
+    },
+    "default_folder_open": {
+      "iconPath": "./vue/default_folder_open.svg"
+    },
+    "default_file": {
+      "iconPath": "./vue/file.svg"
+    },
+    "folder_components": {
+      "iconPath": "./vue/folder_components.svg"
+    },
+    "folder_components_open": {
+      "iconPath": "./vue/folder_components_open.svg"
+    },
+    "folder_views": {
+      "iconPath": "./vue/folder_views.svg"
+    },
+    "folder_views_open": {
+      "iconPath": "./vue/folder_views_open.svg"
+    },
+    "folder_store": {
+      "iconPath": "./vue/folder_store.svg"
+    },
+    "folder_store_open": {
+      "iconPath": "./vue/folder_store_open.svg"
+    },
+    "folder_assets": {
+      "iconPath": "./vue/folder_assets.svg"
+    },
+    "folder_assets_open": {
+      "iconPath": "./vue/folder_assets_open.svg"
+    },
+    "folder_composables": {
+      "iconPath": "./vue/folder_composables.svg"
+    },
+    "folder_composables_open": {
+      "iconPath": "./vue/folder_composables_open.svg"
+    },
+    "folder_router": {
+      "iconPath": "./vue/folder_router.svg"
+    },
+    "folder_router_open": {
+      "iconPath": "./vue/folder_router_open.svg"
+    },
+    "folder_modules": {
+      "iconPath": "./vue/folder_modules.svg"
+    },
+    "folder_modules_open": {
+      "iconPath": "./vue/folder_modules_open.svg"
+    }
+  },
+  "folder": "default_folder",
+  "folderExpanded": "default_folder_open",
+  "file": "default_file",
+  "folderNames": {
+    "components": "folder_components",
+    "views": "folder_views",
+    "store": "folder_store",
+    "assets": "folder_assets",
+    "composables": "folder_composables",
+    "router": "folder_router",
+    "modules": "folder_modules"
+  },
+  "folderNamesExpanded": {
+    "components": "folder_components_open",
+    "views": "folder_views_open",
+    "store": "folder_store_open",
+    "assets": "folder_assets_open",
+    "composables": "folder_composables_open",
+    "router": "folder_router_open",
+    "modules": "folder_modules_open"
+  },
+  "folders": "default_folder",
+  "foldersExpanded": "default_folder_open",
+  "rootFolder": "default_folder",
+  "rootFolderExpanded": "default_folder_open"
+}

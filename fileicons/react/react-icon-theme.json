@@ -1,0 +1,76 @@
+{
+  "iconDefinitions": {
+    "default_folder": {
+      "iconPath": "./react/default_folder.svg"
+    },
+    "default_folder_open": {
+      "iconPath": "./react/default_folder_open.svg"
+    },
+    "default_file": {
+      "iconPath": "./react/file.svg"
+    },
+    "folder_components": {
+      "iconPath": "./react/folder_components.svg"
+    },
+    "folder_components_open": {
+      "iconPath": "./react/folder_components_open.svg"
+    },
+    "folder_hooks": {
+      "iconPath": "./react/folder_hooks.svg"
+    },
+    "folder_hooks_open": {
+      "iconPath": "./react/folder_hooks_open.svg"
+    },
+    "folder_contexts": {
+      "iconPath": "./react/folder_contexts.svg"
+    },
+    "folder_contexts_open": {
+      "iconPath": "./react/folder_contexts_open.svg"
+    },
+    "folder_assets": {
+      "iconPath": "./react/folder_assets.svg"
+    },
+    "folder_assets_open": {
+      "iconPath": "./react/folder_assets_open.svg"
+    },
+    "folder_services": {
+      "iconPath": "./react/folder_services.svg"
+    },
+    "folder_services_open": {
+      "iconPath": "./react/folder_services_open.svg"
+    },
+    "folder_redux": {
+      "iconPath": "./react/folder_redux.svg"
+    },
+    "folder_redux_open": {
+      "iconPath": "./react/folder_redux_open.svg"
+    },
+    "folder_pages": {
+      "iconPath": "./react/folder_pages.svg"
+    },
+    "folder_pages_open": {
+      "iconPath": "./react/folder_pages_open.svg"
+    }
+  },
+  "folder": "default_folder",
+  "folderExpanded": "default_folder_open",
+  "file": "default_file",
+  "folderNames": {
+    "components": "folder_components",
+    "hooks": "folder_hooks",
+    "contexts": "folder_contexts",
+    "assets": "folder_assets",
+    "services": "folder_services",
+    "redux": "folder_redux",
+    "pages": "folder_pages"
+  },
+  "folderNamesExpanded": {
+    "components": "folder_components_open",
+    "hooks": "folder_hooks_open",
+    "contexts": "folder_contexts_open",
+    "assets": "folder_assets_open",
+    "services": "folder_services_open",
+    "redux": "folder_redux_open",
+    "pages": "folder_pages_open"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "frameworkIcons.enabled.description": "Enable/disable automatic framework icon theming",
+  "frameworkIcons.detectFramework.description": "Automatically detect framework or use manual setting",
+  "frameworkIcons.manualFramework.description": "Manually set the framework (only used if detectFramework is false)",
+  "frameworkIcons.detectFramework.title": "Framework Icons: Detect Framework"
+}

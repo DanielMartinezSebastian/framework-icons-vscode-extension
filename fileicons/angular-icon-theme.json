@@ -1,0 +1,88 @@
+{
+  "iconDefinitions": {
+    "default_folder": {
+      "iconPath": "./angular/default_folder.svg"
+    },
+    "default_folder_open": {
+      "iconPath": "./angular/default_folder_open.svg"
+    },
+    "default_file": {
+      "iconPath": "./angular/file.svg"
+    },
+    "folder_app": {
+      "iconPath": "./angular/folder_app.svg"
+    },
+    "folder_app_open": {
+      "iconPath": "./angular/folder_app_open.svg"
+    },
+    "folder_assets": {
+      "iconPath": "./angular/folder_assets.svg"
+    },
+    "folder_assets_open": {
+      "iconPath": "./angular/folder_assets_open.svg"
+    },
+    "folder_environments": {
+      "iconPath": "./angular/folder_environments.svg"
+    },
+    "folder_environments_open": {
+      "iconPath": "./angular/folder_environments_open.svg"
+    },
+    "folder_services": {
+      "iconPath": "./angular/folder_services.svg"
+    },
+    "folder_services_open": {
+      "iconPath": "./angular/folder_services_open.svg"
+    },
+    "folder_directives": {
+      "iconPath": "./angular/folder_directives.svg"
+    },
+    "folder_directives_open": {
+      "iconPath": "./angular/folder_directives_open.svg"
+    },
+    "folder_pipes": {
+      "iconPath": "./angular/folder_pipes.svg"
+    },
+    "folder_pipes_open": {
+      "iconPath": "./angular/folder_pipes_open.svg"
+    },
+    "folder_components": {
+      "iconPath": "./angular/folder_components.svg"
+    },
+    "folder_components_open": {
+      "iconPath": "./angular/folder_components_open.svg"
+    },
+    "folder_guards": {
+      "iconPath": "./angular/folder_guards.svg"
+    },
+    "folder_guards_open": {
+      "iconPath": "./angular/folder_guards_open.svg"
+    }
+  },
+  "folder": "default_folder",
+  "folderExpanded": "default_folder_open",
+  "file": "default_file",
+  "folderNames": {
+    "app": "folder_app",
+    "assets": "folder_assets",
+    "environments": "folder_environments",
+    "services": "folder_services",
+    "directives": "folder_directives",
+    "pipes": "folder_pipes",
+    "components": "folder_components",
+    "guards": "folder_guards"
+  },
+  "folderNamesExpanded": {
+    "app": "folder_app_open",
+    "assets": "folder_assets_open",
+    "environments": "folder_environments_open",
+    "services": "folder_services_open",
+    "directives": "folder_directives_open",
+    "pipes": "folder_pipes_open",
+    "components": "folder_components_open",
+    "guards": "folder_guards_open"
+  },
+  "folders": "default_folder",
+  "foldersExpanded": "default_folder_open",
+  "rootFolder": "default_folder",
+  "rootFolderExpanded": "default_folder_open"
+}

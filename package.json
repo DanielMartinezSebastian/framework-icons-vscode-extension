@@ -1,0 +1,104 @@
+{
+  "name": "framework-icons",
+  "displayName": "Framework Icons",
+  "description": "Automatic folder icon theming based on detected framework",
+  "version": "0.1.0",
+  "publisher": "example-publisher",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example-publisher/framework-icons.git"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "framework-icons-react",
+        "label": "Framework Icons - React",
+        "path": "./fileicons/react-icon-theme.json"
+      },
+      {
+        "id": "framework-icons-angular",
+        "label": "Framework Icons - Angular",
+        "path": "./fileicons/angular-icon-theme.json"
+      },
+      {
+        "id": "framework-icons-vue",
+        "label": "Framework Icons - Vue",
+        "path": "./fileicons/vue-icon-theme.json"
+      },
+      {
+        "id": "framework-icons-default",
+        "label": "Framework Icons - Default",
+        "path": "./fileicons/default-icon-theme.json"
+      }
+    ],
+    "configuration": {
+      "title": "Framework Icons",
+      "properties": {
+        "frameworkIcons.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/disable automatic framework icon theming"
+        },
+        "frameworkIcons.detectFramework": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically detect framework or use manual setting"
+        },
+        "frameworkIcons.manualFramework": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "react",
+            "angular",
+            "vue"
+          ],
+          "default": "auto",
+          "description": "Manually set the framework (only used if detectFramework is false)"
+        },
+        "frameworkIcons.customFolderColors": {
+          "type": "object",
+          "default": {},
+          "description": "Custom folder colors overrides (e.g. {\"components\": \"#FF0000\"})"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "frameworkIcons.detectFramework",
+        "title": "Framework Icons: Detect Framework"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint . --ext .ts,.tsx",
+    "watch": "tsc -watch -p ./",
+    "generate-icons": "node ./scripts/generate-icons.js",
+    "check-themes": "node ./scripts/check-theme.js",
+    "verify-build": "node ./scripts/verify-build.js",
+    "prepackage": "npm run generate-icons && npm run compile && npm run verify-build && npm run check-themes",
+    "package": "vsce package --no-dependencies",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.60.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.7.4",
+    "vsce": "^2.15.0"
+  }
+}

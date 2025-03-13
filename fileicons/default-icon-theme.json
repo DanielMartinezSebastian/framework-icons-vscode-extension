@@ -1,0 +1,48 @@
+{
+  "iconDefinitions": {
+    "default_folder": {
+      "iconPath": "./default/default_folder.svg"
+    },
+    "default_folder_open": {
+      "iconPath": "./default/default_folder_open.svg"
+    },
+    "default_file": {
+      "iconPath": "./default/file.svg"
+    },
+    "folder_src": {
+      "iconPath": "./default/folder_src.svg"
+    },
+    "folder_src_open": {
+      "iconPath": "./default/folder_src_open.svg"
+    },
+    "folder_assets": {
+      "iconPath": "./default/folder_assets.svg"
+    },
+    "folder_assets_open": {
+      "iconPath": "./default/folder_assets_open.svg"
+    },
+    "folder_components": {
+      "iconPath": "./default/folder_components.svg"
+    },
+    "folder_components_open": {
+      "iconPath": "./default/folder_components_open.svg"
+    }
+  },
+  "folder": "default_folder",
+  "folderExpanded": "default_folder_open",
+  "file": "default_file",
+  "folderNames": {
+    "src": "folder_src",
+    "assets": "folder_assets",
+    "components": "folder_components"
+  },
+  "folderNamesExpanded": {
+    "src": "folder_src_open",
+    "assets": "folder_assets_open",
+    "components": "folder_components_open"
+  },
+  "folders": "default_folder",
+  "foldersExpanded": "default_folder_open",
+  "rootFolder": "default_folder",
+  "rootFolderExpanded": "default_folder_open"
+}

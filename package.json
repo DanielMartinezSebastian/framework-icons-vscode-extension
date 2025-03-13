@@ -77,6 +77,10 @@
       {
         "command": "frameworkIcons.detectFramework",
         "title": "Framework Icons: Detect Framework"
+      },
+      {
+        "command": "frameworkIcons.cycleFramework",
+        "title": "Framework Icons: Cycle Framework"
       }
     ]
   },
